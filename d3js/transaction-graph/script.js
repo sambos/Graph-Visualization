@@ -43,7 +43,7 @@ d3.select("body").append("p");
 					
 var force = d3.layout.force()
     .gravity(.05)
-    .distance(50)
+    .distance(70)
     .charge(-100)
     .size([width, height]);
 	
