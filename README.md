@@ -11,7 +11,7 @@ demonstrating graph visualization apis
 * this will start a node instance at http://127.0.0.1:8125   
 * you can access graph at http://127.0.0.1:8125/transaction-graph/index.html?file=dag.json   
 
-![graph](http://www.indix.com/wp-content/uploads/2014/08/lambda_architecture_at_indix.png) 
+![graph](https://github.com/sambos/Graph-Visualization/blob/master/d3js/transaction-graph/graph.PNG) 
 
 ## Visjs
 #### How to test   
