@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+</head>
+
+<body>
+    <div id="viz"></div>
+	<p/>
+	<p/>
+    <script type="text/javascript">
+
+var p = d3.select("body").selectAll("p")
+    .data([4, 8, 15, 16, 23, 42])
+    .text(function(d) { return d; });
+
+// Enter…
+p.enter().append("p")
+    .text(function(d) { return d; });
+
+// Exit…
+p.exit().remove();
+
+d3.selectAll("p").style("color", function() {
+  return "hsl(" + Math.random() * 360 + ",100%,50%)";
+});
+    </script>
+	
+	
+</body>
+
+</html>
