@@ -1,7 +1,8 @@
 # Graph-Visualization
 demonstrating graph visualization apis
 
-### How to test   
+## D3 API 
+#### How to test   
 * You will need to install [NodeJs](https://nodejs.org)   
 * clone this repo   
 * cd to this directory   
